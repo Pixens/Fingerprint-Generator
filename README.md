@@ -1,5 +1,5 @@
 # Discord Fingerprint Fetcher | https://boostup.cc
-This tool is used to verify email of any discord token. It can claim unclaimed tokens as well.
+This tool is used to generate fingerprints for discord.
 
 <div id="top"></div>
 <p align="left">
