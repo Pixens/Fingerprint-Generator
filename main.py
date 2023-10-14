@@ -7,7 +7,6 @@ import concurrent.futures
 import base64
 import json
 
-from fake_useragent import UserAgent
 from tls_client.exceptions import TLSClientExeption
 from colorama import Fore, Style
 
@@ -28,7 +27,6 @@ class Utils:
 
 __build_number__ = Utils.get_build_number()
 __proxies__ = open('./proxies.txt', 'r').read().splitlines()
-__useragent__ = UserAgent(os='Windows')
 
 
 class FetchFingerprint:
