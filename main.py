@@ -38,7 +38,7 @@ class FetchFingerprint:
             'http': f'http://{random.choice(__proxies__)}'
         }
         self.session = tls_client.Session(
-            client_identifier=f'chrome_{self.useragent.split('Chrome/')[1].split('.')[0]}',
+            client_identifier=f'chrome_{self.chrome_version}',
             random_tls_extension_order=True
         )
         self.session.headers = {
